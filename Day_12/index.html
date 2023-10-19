@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transition</title>
+    <style>
+        .box{
+            height: 400px;
+            width: 400px;
+            background-color: beige;
+            border: 2px solid black;
+
+            /* transition-property: all;
+            transition-duration: 4s;
+            /* transition-delay: 1s; 
+            transition-timing-function: ease-out;
+            
+            */
+
+
+            /* shorthand notation */
+            /* transition: all 2s ease-in 5s;
+             */
+
+            transition: width 2s, height 5s;
+        }
+
+
+        .box:hover{
+            width: 1800px;
+            height: 900px;
+            background-color: blue;
+        }
+
+        img{
+            opacity: 0.5;
+        }
+
+        img:hover{
+            opacity: 1.0;
+        }
+
+        p{
+            opacity: 0.3;
+        }
+
+        p:hover{
+            opacity: 1;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="box">
+        </div><br>
+        <div id="imge">
+            <img src="bSinghji.jpeg" height="200px" width="200px" alt="">
+            <br><br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt magnam cumque maiores nisi odit aspernatur velit eos sequi quisquam architecto voluptates nemo, fugit debitis fuga enim eaque dolorum commodi ad? Consequuntur fugit quo assumenda dolorum nobis, omnis consequatur hic asperiores maiores? Modi suscipit amet nulla eveniet consequatur corrupti molestias odio excepturi explicabo officia molestiae autem odit iusto perferendis at magnam vero, ducimus aliquid architecto nam unde dolorem deserunt ipsum! Dolore autem iure ad, consequatur explicabo itaque dolorem fugiat reprehenderit corrupti suscipit incidunt doloremque, adipisci commodi maiores quo ut. Fuga nihil culpa nemo ad veniam dolorem rerum, dolorum expedita? Minima hic eius, doloribus omnis sint nisi tempore inventore modi pariatur natus a voluptas suscipit dolorum praesentium recusandae saepe odit consequuntur alias harum exercitationem? Temporibus delectus facilis unde quisquam reiciendis similique nobis mollitia doloribus rem ducimus nam ullam necessitatibus minus maiores adipisci molestias quia dolor ratione, obcaecati dolore. Atque, recusandae? Sed, vel?</p>
+        </div>
+    </div>
+    
+</body>
+</html>
